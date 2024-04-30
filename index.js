@@ -2,9 +2,8 @@
 /*Problem 1 - for*/
 
 // let userInput=prompt("Give me a number");
-// let isNumber=Number(userInput);
-// if (userInput.trim() !=='' && !Number.isNaN(isNumber)){
-// for (let i=2; i<isNumber; i=i+2){
+// if (userInput.trim() !=='' &&!Number.isNaN(Number(userInput))){
+// for (let i=2; i<Number(userInput); i=i+2){
 //     console.log(i);
 // }
 // } else {
@@ -39,14 +38,9 @@
 
 //Problem 3
 
-let string="345675432123456";
-let result="";
-for (let i=0; i<= string.length; i++){
-    // if (Number(string[i])<5){
-    //     result=result+"0";
-    // } else {
-    //     result=result+"1";
-    // }
-    string[i]<5 ? result=result+"0":result=result+"1";
-};
-console.log (result);
+// let string="345675432123456";
+// let result="";
+// for (let i=0; i<= string.length; i++){
+//     string[i]<5 ? result=result+"0":result=result+"1";
+// };
+// console.log (result);
